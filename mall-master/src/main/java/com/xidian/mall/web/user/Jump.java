@@ -11,7 +11,7 @@ public class Jump {
 
     @RequestMapping("/toJump.html")
     public void testRed(HttpServletResponse response) throws Exception{
-        response.sendRedirect("http://www.blabla1024.cn/");
+        response.sendRedirect("http://www.blabla1024.cn:8080/");
     }
 
 }
