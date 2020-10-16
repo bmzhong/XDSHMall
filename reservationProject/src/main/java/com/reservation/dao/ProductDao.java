@@ -18,7 +18,7 @@ public interface ProductDao extends JpaRepository<Product, Integer> {
      */
     List<Product> findByCsid(int csid, Pageable pageable);
 
-    List<Product> findByCsidIn(List<Integer> csids,Pageable pageable);
+    List<Product> findByCsidIn(List<Integer> csids, Pageable pageable);
 
     /**
      * 通过标题搜索商品
@@ -43,7 +43,7 @@ public interface ProductDao extends JpaRepository<Product, Integer> {
      * @param pageable
      * @return
      */
-    List<Product> findByIsHot(int isHot,Pageable pageable);
+    List<Product> findByIsHot(int isHot, Pageable pageable);
 
     /**
      * 查询最新商品，最近上新的24个商品

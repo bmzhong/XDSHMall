@@ -30,7 +30,7 @@ public interface ClassificationService {
      * @param pageable
      * @return
      */
-    Page<Classification> findAll(int type,Pageable pageable);
+    Page<Classification> findAll(int type, Pageable pageable);
 
     /**
      * 按条件查询

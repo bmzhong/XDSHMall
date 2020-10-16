@@ -1,5 +1,6 @@
 package com.reservation.dao;
 
+
 import com.reservation.entity.AdminUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 

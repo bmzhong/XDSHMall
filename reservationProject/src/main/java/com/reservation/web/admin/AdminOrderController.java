@@ -51,6 +51,7 @@ public class AdminOrderController {
     @RequestMapping("/list.do")
     public ResultBean<List<Order>> listData(int pageindex,
                                             @RequestParam(value = "pageSize", defaultValue = "15") int pageSize) {
+        System.out.println("list.do");
         Pageable pageable = new PageRequest(pageindex, pageSize, null);
         List<Order> list = orderService.findAll(pageable).getContent();
         return new ResultBean<>(list);
@@ -64,6 +65,7 @@ public class AdminOrderController {
     @ResponseBody
     @RequestMapping("/getDetail.do")
     public ResultBean<List<OrderItem>> getDetail(int orderId) {
+        System.out.println("getDetail.do");
         List<OrderItem> list = orderService.findItems(orderId);
         return new ResultBean<>(list);
     }

@@ -69,7 +69,7 @@ public interface UserService {
      * @param password
      * @return
      */
-    User checkLogin(String username,String password);
+    User checkLogin(String username, String password);
 
 
 }

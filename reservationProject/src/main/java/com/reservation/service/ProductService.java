@@ -42,7 +42,7 @@ public interface ProductService {
      * @param pageable
      * @return
      */
-    List<Product> findByCid(int cid,Pageable pageable);
+    List<Product> findByCid(int cid, Pageable pageable);
 
     /**
      * 根据二级分类查找商品
@@ -50,7 +50,7 @@ public interface ProductService {
      * @param pageable
      * @return
      */
-    List<Product> findByCsid(int csid,Pageable pageable);
+    List<Product> findByCsid(int csid, Pageable pageable);
 
     /**
      * 更新

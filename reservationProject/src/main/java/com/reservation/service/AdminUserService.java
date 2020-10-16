@@ -64,6 +64,6 @@ public interface AdminUserService {
      * @param pwd
      * @return
      */
-    AdminUser checkLogin(HttpServletRequest request,String username, String pwd);
+    AdminUser checkLogin(HttpServletRequest request, String username, String pwd);
 
 }

@@ -1,7 +1,343 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b16e6508-a784-4e40-88e6-8ec2d478fe58" name="Default Changelist" comment="" />
+    <list default="true" id="b16e6508-a784-4e40-88e6-8ec2d478fe58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/employee/src/main/java/cn/blabla/controller/ListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/DT_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-responsive1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-toggle-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/brown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/clockface.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/coming-soon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/editormd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/editormd.preview.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/email.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/glyphicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/halflings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/inbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery-ui-1.10.1.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.fileupload-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.nestable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jquery.ui.slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/lock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/login-soft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/multi-select-metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/pricing-tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/promo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/select2_metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/style-metro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/style-non-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/css/uniform.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/DT_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-modalmanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-rtl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap-wysihtml5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/breakpoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/clockface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/coming-soon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/contact-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/form-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/form-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/form-samples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/form-wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/inbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery-1.10.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery-ui-1.10.1.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.blockui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.bootpag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.bootstrap.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.fileupload-fp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.fileupload-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.input-ip-address-control-1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.inputmask.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.multi-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.pulsate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.toggle.buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/jquery.xdr-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/load-image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/lock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/login-soft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/maps-google.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/maps-vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/portlet-draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/table-advanced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/table-managed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/tmpl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-modals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-sliders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/ui-tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/js/wysihtml5-0.3.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee" beforeDir="false" afterPath="$PROJECT_DIR$/employee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/java/cn/BlablaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/java/cn/BlablaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/java/cn/blabla/controller/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employee/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/resources/templates/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/src/main/resources/templates/mutifile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/LoginAndRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/AdminUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/AdminUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/ClassificationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/ClassificationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/AdminUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/ClassificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/ClassificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/AdminUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/ShopCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/ShopCartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminClassificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminClassificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/admin/AdminUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/AddGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/AddGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/java/com/reservation/web/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/Sign in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/admin/order/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/employee/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/Sign up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservationProject/src/main/resources/templates/mall/user/register.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,35 +362,32 @@
     <option name="width" value="1750" />
     <option name="height" value="995" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="programmingTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmingTraining" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/community" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reservationProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -79,26 +412,23 @@
       <option name="presentableId" value="Default" />
       <updated>1602490652549</updated>
       <workItem from="1602490653713" duration="12000" />
+      <workItem from="1602838140054" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000" />
+    <option name="totallyTimeSpent" value="29000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -106,15 +436,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="masterDetails">

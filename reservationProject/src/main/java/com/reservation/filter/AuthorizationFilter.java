@@ -54,6 +54,12 @@ public class AuthorizationFilter implements Filter {
         if (path.endsWith(".do") || path.endsWith(".html")) {
             // 登录，图片不拦截
             if (path.endsWith("toLogin.html")
+//                    || path.endsWith("getTotal.do")
+//                    || path.endsWith("list.do")
+//                    || path.endsWith("getDetail.do")
+                    || path.endsWith("toList.html")
+                    || path.endsWith("Sign up.html")
+                    || path.endsWith("register.html")
                     || path.endsWith("toRegister.html")
                     || path.endsWith("register.do")
                     || path.endsWith("login.do")

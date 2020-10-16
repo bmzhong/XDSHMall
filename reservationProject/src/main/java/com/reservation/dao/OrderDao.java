@@ -18,7 +18,7 @@ public interface OrderDao extends JpaRepository<Order, Integer> {
     @Modifying
     @Transactional
     @Query(value = "update `order` o set o.state=?1 where o.id=?2",nativeQuery = true)
-    void updateState(int state,int id);
+    void updateState(int state, int id);
 
     /**
      * 查找用户的订单

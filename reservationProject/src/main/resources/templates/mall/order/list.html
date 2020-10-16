@@ -65,7 +65,7 @@
 
         // 加载我的订单列表
         function loadOrder() {
-            $.get("list.do", function (data) {
+            $.get("templates.employee.list.do", function (data) {
                 if (data.state == 0) {
                     var tbody = $("#list");
                     appendToPage(data.data, tbody);

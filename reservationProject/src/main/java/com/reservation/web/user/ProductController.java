@@ -4,6 +4,8 @@ import com.reservation.entity.Classification;
 import com.reservation.entity.OrderItem;
 import com.reservation.entity.Product;
 import com.reservation.entity.pojo.ResultBean;
+import com.reservation.service.ClassificationService;
+import com.reservation.service.ProductService;
 import com.reservation.service.ShopCartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -11,8 +13,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import com.reservation.service.ClassificationService;
-import com.reservation.service.ProductService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
