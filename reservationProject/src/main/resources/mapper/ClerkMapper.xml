@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.reservation.mapper.ClerkMapper">
+  <resultMap id="BaseResultMap" type="com.reservation.bean.Clerk">
+    <id column="clerk_id" jdbcType="INTEGER" property="clerkId" />
+    <result column="cleark_name" jdbcType="VARCHAR" property="clearkName" />
+    <result column="cleark_password" jdbcType="VARCHAR" property="clearkPassword" />
+    <result column="clerk_email" jdbcType="VARCHAR" property="clerkEmail" />
+    <result column="clerk_phone" jdbcType="VARCHAR" property="clerkPhone" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    clerk_id, cleark_name, cleark_password, clerk_email, clerk_phone
+  </sql>
+  <select id="selectByExample" parameterType="com.reservation.bean.ClerkExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from delivery_clerk
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from delivery_clerk
+    where clerk_id = #{clerkId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from delivery_clerk
+    where clerk_id = #{clerkId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.reservation.bean.ClerkExample">
+    delete from delivery_clerk
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.reservation.bean.Clerk">
+    insert into delivery_clerk (clerk_id, cleark_name, cleark_password, 
+      clerk_email, clerk_phone)
+    values (#{clerkId,jdbcType=INTEGER}, #{clearkName,jdbcType=VARCHAR}, #{clearkPassword,jdbcType=VARCHAR}, 
+      #{clerkEmail,jdbcType=VARCHAR}, #{clerkPhone,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.reservation.bean.Clerk">
+    insert into delivery_clerk
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="clerkId != null">
+        clerk_id,
+      </if>
+      <if test="clearkName != null">
+        cleark_name,
+      </if>
+      <if test="clearkPassword != null">
+        cleark_password,
+      </if>
+      <if test="clerkEmail != null">
+        clerk_email,
+      </if>
+      <if test="clerkPhone != null">
+        clerk_phone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="clerkId != null">
+        #{clerkId,jdbcType=INTEGER},
+      </if>
+      <if test="clearkName != null">
+        #{clearkName,jdbcType=VARCHAR},
+      </if>
+      <if test="clearkPassword != null">
+        #{clearkPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="clerkEmail != null">
+        #{clerkEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="clerkPhone != null">
+        #{clerkPhone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.reservation.bean.ClerkExample" resultType="java.lang.Long">
+    select count(*) from delivery_clerk
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update delivery_clerk
+    <set>
+      <if test="record.clerkId != null">
+        clerk_id = #{record.clerkId,jdbcType=INTEGER},
+      </if>
+      <if test="record.clearkName != null">
+        cleark_name = #{record.clearkName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.clearkPassword != null">
+        cleark_password = #{record.clearkPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="record.clerkEmail != null">
+        clerk_email = #{record.clerkEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="record.clerkPhone != null">
+        clerk_phone = #{record.clerkPhone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update delivery_clerk
+    set clerk_id = #{record.clerkId,jdbcType=INTEGER},
+      cleark_name = #{record.clearkName,jdbcType=VARCHAR},
+      cleark_password = #{record.clearkPassword,jdbcType=VARCHAR},
+      clerk_email = #{record.clerkEmail,jdbcType=VARCHAR},
+      clerk_phone = #{record.clerkPhone,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.reservation.bean.Clerk">
+    update delivery_clerk
+    <set>
+      <if test="clearkName != null">
+        cleark_name = #{clearkName,jdbcType=VARCHAR},
+      </if>
+      <if test="clearkPassword != null">
+        cleark_password = #{clearkPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="clerkEmail != null">
+        clerk_email = #{clerkEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="clerkPhone != null">
+        clerk_phone = #{clerkPhone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where clerk_id = #{clerkId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.reservation.bean.Clerk">
+    update delivery_clerk
+    set cleark_name = #{clearkName,jdbcType=VARCHAR},
+      cleark_password = #{clearkPassword,jdbcType=VARCHAR},
+      clerk_email = #{clerkEmail,jdbcType=VARCHAR},
+      clerk_phone = #{clerkPhone,jdbcType=VARCHAR}
+    where clerk_id = #{clerkId,jdbcType=INTEGER}
+  </update>
+  <select id="selectByExampleWithRowbounds" parameterType="com.reservation.bean.ClerkExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from delivery_clerk
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+</mapper>
